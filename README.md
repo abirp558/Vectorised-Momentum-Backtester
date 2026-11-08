@@ -2,7 +2,7 @@
 
 An exploration of algorithmic momentum strategies in highly liquid US equity markets. This project constructs an end-to-end vectorized backtesting engine for **SPY**, testing the statistical validity of moving average crossovers while accounting for execution latency.
 
-## 🔬 Quantitative Methodology
+## Quantitative Methodology
 
 ### Data Ingestion
 The pipeline utilizes programmatic retrieval of historical market data via `yfinance`. It downloads daily historical adjusted closing prices to natively account for corporate actions, stock splits, and dividend distributions, avoiding artificial price gaps.
